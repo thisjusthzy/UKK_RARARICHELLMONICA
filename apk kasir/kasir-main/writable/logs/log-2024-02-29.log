@@ -1,0 +1,42 @@
+ERROR - 2024-02-29 06:39:37 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir-main\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir-main\app\Models\M_Model.php(91): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kasir-main\app\Controllers\user.php(74): App\Models\M_model->simpan('user', Array)
+#6 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(919): App\Controllers\user->aksi_adduser()
+#7 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kasir-main\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kasir-main\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-29 06:43:22 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir-main\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir-main\app\Models\M_Model.php(91): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kasir-main\app\Controllers\user.php(74): App\Models\M_model->simpan('user', Array)
+#6 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(919): App\Controllers\user->aksi_adduser()
+#7 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kasir-main\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kasir-main\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-29 06:55:28 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\kasir-main\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir-main\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir-main\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir-main\app\Models\M_Model.php(91): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kasir-main\app\Controllers\user.php(74): App\Models\M_model->simpan('user', Array)
+#6 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(919): App\Controllers\user->aksi_adduser()
+#7 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 C:\xampp\htdocs\kasir-main\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kasir-main\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kasir-main\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}

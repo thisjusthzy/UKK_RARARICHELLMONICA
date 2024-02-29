@@ -1,0 +1,22 @@
+ERROR - 2024-01-31 10:33:23 --> mysqli_sql_exception: MySQL server has gone away in C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Desktop\Point Of Sale (POS)\app\Models\M_Model.php(81): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\Users\Administrator\Desktop\Point Of Sale (POS)\app\Controllers\Home.php(24): App\Models\M_model->getWhere2('user', Array)
+#6 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\CodeIgniter.php(919): App\Controllers\Home->aksi_login()
+#7 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\Point Of Sale (POS)\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\Point Of Sale (POS)\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2024-01-31 10:33:23 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\M_Model.php on line 81.
+ 1 APPPATH\Controllers\Home.php(24): App\Models\M_model->getWhere2('user', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Desktop\\Point Of Sale (POS)\\public\\index.php')
